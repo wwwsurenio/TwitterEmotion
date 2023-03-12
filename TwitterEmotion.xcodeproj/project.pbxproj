@@ -13,6 +13,7 @@
 		59F8CCE329BE2B7E0000B90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F8CCE129BE2B7E0000B90C /* Main.storyboard */; };
 		59F8CCE529BE2B7F0000B90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F8CCE429BE2B7F0000B90C /* Assets.xcassets */; };
 		59F8CCE829BE2B7F0000B90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F8CCE629BE2B7F0000B90C /* LaunchScreen.storyboard */; };
+		59F8CCF029BE2F000000B90C /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 59F8CCEF29BE2F000000B90C /* TweetSentimentClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59F8CCE429BE2B7F0000B90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59F8CCE729BE2B7F0000B90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59F8CCE929BE2B7F0000B90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F8CCEF29BE2F000000B90C /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				59F8CCDA29BE2B7E0000B90C /* TwitterEmotion */,
+				59F8CCEF29BE2F000000B90C /* TweetSentimentClassifier.mlmodel */,
 				59F8CCD929BE2B7E0000B90C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				59F8CCE029BE2B7E0000B90C /* ViewController.swift in Sources */,
 				59F8CCDC29BE2B7E0000B90C /* AppDelegate.swift in Sources */,
+				59F8CCF029BE2F000000B90C /* TweetSentimentClassifier.mlmodel in Sources */,
 				59F8CCDE29BE2B7E0000B90C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
