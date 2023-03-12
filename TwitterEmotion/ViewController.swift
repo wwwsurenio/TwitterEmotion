@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var backgroundView: UIView!
+    @IBOutlet weak var sentimentLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
+    
+    @IBAction func predictPressed(_ sender: UIButton) {
+    }
+    
 
 }
 
