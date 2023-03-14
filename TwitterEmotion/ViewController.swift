@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwifteriOS
 
 class ViewController: UIViewController {
     
@@ -13,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var sentimentLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    let swifter = Swifter(consumerKey: TWITTER_CONSUMER_KEY, consumerSecret: TWITTER_CONSUMER_SECRET)
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
